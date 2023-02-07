@@ -7,7 +7,11 @@
 [![Twitter](https://img.shields.io/badge/twitter-@RexosP-blue?logo=twitter&logoColor=fff&style=flat-square)](https://twitter.com/RexosP)
 
 # Channel youtube python indonesia:
-[![Youtube](https://img.shields.io/badge/youtube-KelasTerbuka-red.svg)](https://www.youtube.com/c/kelasterbuka) [![Youtube](https://img.shields.io/badge/youtube-IndonesiaBelajar-red.svg)](https://www.youtube.com/c/IndonesiaBelajarKomputer) [![Youtube](https://img.shields.io/badge/youtube-ProgrammerZamanNow-red.svg)](https://www.youtube.com/c/ProgrammerZamanNow) [![Youtube](https://img.shields.io/badge/youtube-SekolahKoding-red.svg)](https://www.youtube.com/c/SekolahKoding) 
+[![Youtube](https://img.shields.io/badge/youtube-Kelas%20Terbuka-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/kelasterbuka)
+[![Youtube](https://img.shields.io/badge/youtube-Indonesia%20Belajar-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/IndonesiaBelajarKomputer)
+[![Youtube](https://img.shields.io/badge/youtube-ProgrammerZamanNow-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/ProgrammerZamanNow)
+[![Youtube](https://img.shields.io/badge/youtube-Sekolah%20Koding-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/SekolahKoding)
+
 # Website tentang python:
 [![Website](https://img.shields.io/badge/website-W3Schools-darkblue.svg)](https://www.w3schools.com/python/) [![Website](https://img.shields.io/badge/website-programiz-darkblue.svg)](https://www.programiz.com/python-programming) [![Website](https://img.shields.io/badge/website-geeksforgeeks-darkblue.svg)](https://www.geeksforgeeks.org/python-programming-language/) [![Website](https://img.shields.io/badge/website-jagongoding-darkblue.svg)](https://jagongoding.com/python/) [![Website](https://img.shields.io/badge/website-realpython-darkblue.svg)](https://realpython.com/)
 
