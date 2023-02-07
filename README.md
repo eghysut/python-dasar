@@ -5,6 +5,7 @@
 [![Facebook](https://img.shields.io/badge/facebook-groups-blue?logo=Facebook&logoColor=fff&style=flat-square)](https://web.facebook.com/groups/1547113062220560/?hoisted_section_header_type=recently_seen&multi_permalinks=3261000454165137)
 [![Telegram](https://img.shields.io/badge/telegram-groups-blue?logo=Telegram&logoColor=fff&style=flat-square)](https://web.telegram.org/z/#-1052242766)
 [![Twitter](https://img.shields.io/badge/twitter-@RexosP-blue?logo=twitter&logoColor=fff&style=flat-square)](https://twitter.com/RexosP)
+![](https://api.visitorbadge.io/api/VisitorHit?user=eghysut&repo=python-dasar&countColor=green&style=flat-square)
 
 # Channel youtube python indonesia:
 [![Youtube](https://img.shields.io/badge/youtube-Kelas%20Terbuka-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/kelasterbuka)
