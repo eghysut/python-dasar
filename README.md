@@ -1,7 +1,8 @@
 # python-dasar
 
 [![MIT License](https://img.shields.io/github/license/eghysut/python-dasar?color=red&label=License&logo=GNU&style=flat-square)](https://github.com/eghysut/python-dasar/blob/master/LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+|3.9+|3.10+-green?logo=Python&logoColor=FFF&style=flat-square)](https://www.python.org/)
+[![GitHub issues](https://img.shields.io/github/issues/eghysut/python-dasar?color=brightgreen&style=flat-square&logo=git&logoColor=fff)](https://github.com/eghysut/python-dasar/issues)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+|3.9+|3.10+-brightgreen?logo=Python&logoColor=FFF&style=flat-square)](https://www.python.org/)
 [![Facebook](https://img.shields.io/badge/facebook-groups-blue?logo=Facebook&logoColor=fff&style=flat-square)](https://web.facebook.com/groups/1547113062220560/?hoisted_section_header_type=recently_seen&multi_permalinks=3261000454165137)
 [![Telegram](https://img.shields.io/badge/telegram-groups-blue?logo=Telegram&logoColor=fff&style=flat-square)](https://web.telegram.org/z/#-1052242766)
 [![Twitter](https://img.shields.io/badge/twitter-@RexosP-blue?logo=twitter&logoColor=fff&style=flat-square)](https://twitter.com/RexosP)
