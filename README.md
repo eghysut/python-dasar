@@ -7,13 +7,13 @@
 [![Telegram](https://img.shields.io/badge/telegram-groups-blue?logo=Telegram&logoColor=fff&style=flat-square)](https://web.telegram.org/z/#-1052242766)
 [![Twitter](https://img.shields.io/badge/twitter-@RexosP-blue?logo=twitter&logoColor=fff&style=flat-square)](https://twitter.com/RexosP)
 
-# Channel youtube python indonesia:
+## Channel youtube python indonesia:
 [![Youtube](https://img.shields.io/badge/youtube-Kelas%20Terbuka-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/kelasterbuka)
 [![Youtube](https://img.shields.io/badge/youtube-Indonesia%20Belajar-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/IndonesiaBelajarKomputer)
 [![Youtube](https://img.shields.io/badge/youtube-ProgrammerZamanNow-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/ProgrammerZamanNow)
 [![Youtube](https://img.shields.io/badge/youtube-Sekolah%20Koding-red?logo=Youtube&logoColor=red&style=social)](https://www.youtube.com/c/SekolahKoding)
 
-# Website tentang python:
+## Website tentang python:
 [![Website](https://img.shields.io/badge/website-W3Schools-darkblue.svg)](https://www.w3schools.com/python/) [![Website](https://img.shields.io/badge/website-programiz-darkblue.svg)](https://www.programiz.com/python-programming) [![Website](https://img.shields.io/badge/website-geeksforgeeks-darkblue.svg)](https://www.geeksforgeeks.org/python-programming-language/) [![Website](https://img.shields.io/badge/website-jagongoding-darkblue.svg)](https://jagongoding.com/python/) [![Website](https://img.shields.io/badge/website-realpython-darkblue.svg)](https://realpython.com/)
 
 proyek ini sengaja dibuat untuk mempermudah pekerjaan programmer python. semua dirangkum dari berbagai sumber website tentang pemrograman bahasa python, alat ini sangat cocok untuk pemula, menengah, hingga mahir sekalipun. tutorial ini sangat mudah dimengerti dalam penjelasan yang sangat dasar, dan berbagai contoh program kode yang mudah dipahami.
