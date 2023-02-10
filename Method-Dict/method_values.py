@@ -16,17 +16,25 @@
 # mengembalikan value/nilai dalam bentuk tipe data list
 dictku = {'nama':'alice', 'usia':23}
 x = dictku.values()
-print(x)    # dict_values(['alice', 23)
+print(x)    
+# Output:
+# dict_values(['alice', 23)
 
 # saat sebuah item dictionary ditambahkan atau diubah nilainya, objek tampilan juga diperbarui.
 dictku['alamat'] = 'jakarta'
 dictku['nama'] = 'carl'
-print(x)        # dict_values(['carl', 23, 'jakarta'])
-print(dictku)   # {'nama': 'carl', 'usia': 23, 'alamat': 'jakarta'}
+print(x)        
+# Output:
+# dict_values(['carl', 23, 'jakarta'])
+
+print(dictku)
+# Output:
+# {'nama': 'carl', 'usia': 23, 'alamat': 'jakarta'}
 
 # menampilkan objek dengan forloop
 for val in dictku.values():
     print(val)
+# Output:
 # carl
 # 23
 # jakarta
