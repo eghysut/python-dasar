@@ -12,6 +12,10 @@
 
 # menghapus semua dictionary data mahasiswa
 mahasiswa = {'nama':'alice', 'usia':23, 'alamat':'jakarta'}
-print(mahasiswa)    # {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
+print(mahasiswa)    
+# Output:
+# {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
 mahasiswa.clear()
-print(mahasiswa)    # {}
+print(mahasiswa)   
+# Output:
+# {}
