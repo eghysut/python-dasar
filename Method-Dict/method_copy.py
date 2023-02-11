@@ -11,7 +11,14 @@
 # menyalin dictionary data mahasiswa
 mahasiswa = {'nama':'alice', 'usia':23, 'alamat':'jakarta'}
 data_copy = mahasiswa.copy()
-print(mahasiswa)    # {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
-print(data_copy)    # {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
+print(mahasiswa)    
+# Output:
+# {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
 
-print(mahasiswa == data_copy)   # True
+print(data_copy)    
+# Output:
+# {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
+
+print(mahasiswa == data_copy)
+# Output:
+# True
