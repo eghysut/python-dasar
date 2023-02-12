@@ -18,22 +18,29 @@
 # menghapus "alamat" dari dictionary
 dictku = {'nama':'alice', 'usia':23, 'alamat':'jakarata'}
 dictku.pop('alamat')
-print(dictku)   # {'nama': 'alice', 'usia': 23}
+print(dictku)   
+# Output:
+# {'nama': 'alice', 'usia': 23}
 
 # mengembalikan nilai yang dihapus
 dictku = {'nama':'carl', 'usia':26, 'alamat':'bandung'}
 hasil = dictku.pop('alamat')
-print(hasil)    # bandung
+print(hasil)    
+# Output:
+# bandung
 
 # menggunakan parameter nilai default
 dictku = {'nama':'alice', 'usia':23}
 hasil = dictku.pop('alamat', 'tidak ada')
-print(hasil)    # tidak ada
+print(hasil)
+# Output:
+# tidak ada
 
 # jika nama kunci tidak ada, akan menampilkan pesan kesalahan KeyError
 dictku = {'nama':'eliot', 'usia':22, 'alamat':'surabaya'}
 dictku.pop('jurusan')
 print(dictku)
+# Output:
 # Traceback (most recent call last):
 #   File "method_pop.py", line 28, in <module>
 #     dictku.pop('jurusan')
