@@ -15,10 +15,15 @@
 
 dictku = {'nama':'alice', 'usia':23}
 x = dictku.get('alamat')    # menggunakan pesan default
-print(x)    # None 
+print(x)
+# Output:
+# None 
+
 y = dictku.get('alamat', 'tidak ada')
 print(y)    # tidak ada     # menggunakan pesan tersendiri
 
 print(dictku.get('nama'))   # alice
 print(dictku.get('usia'))   # 23
-print(dictku.get('alamat', 'xxxx')) # xxxx
+print(dictku.get('alamat', 'xxxx')) 
+# Output:
+# xxxx
