@@ -16,17 +16,25 @@
 # mengembalikan keys/kunci dalam bentuk tipe data list
 dictku = {'nama':'alice', 'usia':23}
 x = dictku.keys()
-print(x)    # dict_keys(['nama', 'usia'])
+print(x)    
+# Output:
+# dict_keys(['nama', 'usia'])
 
 # saat sebuah item dictionary ditambahkan atau diubah nilainya, objek tampilan juga diperbarui.
 dictku['alamat'] = 'jakarta'
 dictku['nama'] = 'carl'
-print(x)        # dict_keys(['nama', 'usia', 'alamat'])
-print(dictku)   # {'nama': 'carl', 'usia': 23, 'alamat': 'jakarta'}
+print(x)        
+# Output:
+# dict_keys(['nama', 'usia', 'alamat'])
+
+print(dictku)   
+# Output
+# {'nama': 'carl', 'usia': 23, 'alamat': 'jakarta'}
 
 # menampilkan objek dengan forloop
 for key in dictku.keys():
     print(key)
+# Output:
 # nama
 # usia
 # alamat
