@@ -15,12 +15,18 @@
 # memasukan item ke dictionary
 dictku = {'nama':'alice', 'usia':23}
 dictku.update({'alamat':'jakarta'})
-print(dictku)   # {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
+print(dictku)   
+# Output:
+# {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta'}
 
 x = {'jurusan':'teknik komputer', 'email':'alice@gmail.com'}
 dictku.update(x)
-print(dictku)   # {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta', 'jurusan': 'teknik komputer', 'email': 'alice@gmail.com'}
+print(dictku)   
+# Output:
+# {'nama': 'alice', 'usia': 23, 'alamat': 'jakarta', 'jurusan': 'teknik komputer', 'email': 'alice@gmail.com'}
 
 # mengubah item "nama"
 dictku.update({'nama':'carl'})
-print(dictku)   # {'nama': 'carl', 'usia': 23, 'alamat': 'jakarta', 'jurusan': 'teknik komputer', 'email': 'alice@gmail.com'}
+print(dictku)   
+# Output:
+# {'nama': 'carl', 'usia': 23, 'alamat': 'jakarta', 'jurusan': 'teknik komputer', 'email': 'alice@gmail.com'}
