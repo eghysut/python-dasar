@@ -13,9 +13,13 @@
 
 dictku = {'nama':'alice', 'usia':23, 'alamat':'jakarta'}
 dictku.popitem()
-print(dictku)   # {'nama': 'alice', 'usia': 23}
+print(dictku)  
+# Output:
+# {'nama': 'alice', 'usia': 23}
 
 # mengembalikan item yang dihapus sebagai tuple
 dictku = {'nama':'alice', 'usia':23, 'alamat':'jakarta'}
 hasil = dictku.popitem()
-print(hasil)    # ('alamat', 'jakarta')
+print(hasil)    
+# Output:
+# ('alamat', 'jakarta')
