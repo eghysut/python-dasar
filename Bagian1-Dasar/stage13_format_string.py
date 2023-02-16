@@ -43,4 +43,5 @@ usia = 23
 print(f"nama: {nama} usia: {usia}")     
 # Output:
 # nama: alice usia: 23
+
 # jika ingin mempelajari lebih lanjut tentang pemformatan string python kunjung folder_name: "python-formatting/formatting_format.py"
