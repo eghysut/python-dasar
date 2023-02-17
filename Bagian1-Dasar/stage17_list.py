@@ -115,7 +115,7 @@ if 'carl' in listku:
 else:
     print('failed')
 # Output:
-# True
+# passed
 
 # jika ingin mempelajari lebih lanjut tentang slice list kunjungi folder_name: "Bagian1-DASAR/stage17_slice_list.py"
 # jika ingin mempelajari lebih lanjut tentang modify list kunjungi folder_name: "Bagian1-DASAR/stage18_modify_list.py"
