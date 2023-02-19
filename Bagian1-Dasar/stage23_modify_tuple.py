@@ -32,25 +32,33 @@ print(tupleku)
 # menambahkan item tuple menggunakan operator assignment/penugasan (+=)
 tupleku = ('alice', 'carl')
 tupleku += ('eliot', )
-print(tupleku)  # ('alice', 'carl', 'eliot')
+print(tupleku)  
+# Output:
+# ('alice', 'carl', 'eliot')
 
 # menggabunggkan item tuple menggunakan operator tambah +
 tuple1 = ('hello', 'world')
 tuple2 = (25, True, None)
 tuple3 = tuple1 + tuple2
-print(tuple3)   # ('hello', 'world', 25, True, None)
+print(tuple3)   
+# Output:
+# ('hello', 'world', 25, True, None)
 
 # melipatgandakan item tuple menggunakan operator kali *
 tupleku = ('hello', 'world')
 x = tupleku * 2
-print(x)    # ('hello', 'world', 'hello', 'world')
+print(x)    
+# Output:
+# ('hello', 'world', 'hello', 'world')
 
 # menghapus item tuple mengunakan fungsi remove() list
 tupleku = ('alice', 'carl', 'eliot')
 x = list(tupleku)
 x.remove('eliot')
 tupleku = tuple(x)
-print(tupleku)  # ('alice', 'carl')
+print(tupleku)  
+# Output:
+# ('alice', 'carl')
 
 # menghapus item tuple menggunakan keyword python 'del'
 # menghapus sepenuhnya item tuple dan variabel x 
@@ -59,6 +67,11 @@ x = ('alice', 'carl', 'eliot')
 print(x)
 del x
 print(x)
+# Output:
+# Traceback (most recent call last):
+#   File ".\stage23_modify_tuple.py", line 57, in <module>
+#     print(x)
+# NameError: name 'x' is not defined
 
 # jika anda ingin mengetahui tentang python-operator kunjungi folder_name: "python-operator"
 # jika anda ingin mengetahui tentang Method-Tuple kunjungi folder_name: "Method-Tuple"
