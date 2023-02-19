@@ -65,6 +65,9 @@ print(tupleku)
 # akan menampilkan error runtime "NameError:"
 x = ('alice', 'carl', 'eliot')
 print(x)
+# Output:
+# ('alice', 'carl', 'eliot')
+
 del x
 print(x)
 # Output:
