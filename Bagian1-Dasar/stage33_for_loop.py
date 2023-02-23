@@ -18,6 +18,7 @@
 # menggunakan tipe data string
 for s in "hello world":
     print(s)
+# Output:
 # h
 # e
 # l
@@ -27,6 +28,7 @@ for s in "hello world":
 listku = ['alice', 'carl', 'eliot']
 for var in listku:
     print(var)
+# Output:
 # alice
 # carl
 # eliot
@@ -38,6 +40,7 @@ for i in ('alice', 'carl', 'eliot'):
     # kode ini seterara dengan diatas
     x += 1
     print(f"{x}. {i}")
+# Output:
 # 1. alice
 # 2. carl
 # 3. eliot
@@ -45,6 +48,7 @@ for i in ('alice', 'carl', 'eliot'):
 # menggunakan tipe data dict
 for key, val in {'nama':'alice', 'usia':23, 'alamat':'jakarta'}.items():
     print(key, val)
+# Output:
 # nama alice
 # usia 23
 # alamat jakarta
@@ -56,6 +60,7 @@ nama = ['alice', 'carl', 'eliot']
 for i in noid:
     for j in nama:
         print(i, j)
+# Output:
 # 100 alice
 # 100 carl
 # 100 eliot
@@ -71,6 +76,7 @@ nama = ('alice', 'carl', 'eliot')
 usia = (23, 22, 20)
 for nama, usia in zip(nama, usia):
     print(nama, usia)
+# Output:
 # alice 23
 # carl 22
 # eliot 20
@@ -78,6 +84,7 @@ for nama, usia in zip(nama, usia):
 # menggunakan fungsi bawaan python range()
 for i in range(3):
     print(i)
+# Output:
 # 0
 # 1
 # 2
@@ -85,6 +92,7 @@ for i in range(3):
 # mengabaikan nilai dengan garis bawah _
 for _ in range(3):
     print("hello world")
+# Output:
 # hello world
 # hello world
 # hello world
