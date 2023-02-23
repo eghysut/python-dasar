@@ -35,7 +35,7 @@ def hello():
 # memanggil fungsi
 # untuk menjalankan fungsi, anda dapat memanggil fungsi dengan menuliskan nama fungsi diikuti dengan tanda kurung ().
 hello()
-# output:
+# Output:
 # 10
 # ini adalah fungsi hello
 
@@ -48,7 +48,7 @@ def word(parameter):
 # memanggil fungsi
 # anda harus mengisi nilai parameter atau argumen dari fungsi word(argumen|parameter)
 word('hello world')
-# output:
+# Output:
 # hello world
 # ini adalah fungsi word
 
@@ -66,7 +66,7 @@ def fungsiku(nama, usia):
 
 # memanggil fungsi
 fungsiku('alice', 23)
-# output:
+# Output:
 # nama: alice usia: 23
 
 # Jika Anda mencoba memanggil fungsi dengan 1 atau 3 argumen, Anda akan mendapatkan error:
@@ -78,10 +78,12 @@ def fungsiku(nama, usia):
     return f"nama: {nama} usia: {usia}"
 # untuk menampilkan hasilnya gunakan fungsi print(nama_fungsi)
 print(fungsiku('alice', 23))
+# Output:
 # nama: alice usia: 23
 
 x = fungsiku('alice', 23)
 print(x)
+# Output:
 # nama: alice usia: 23
 
 # Argumen Kata Kunci
@@ -89,7 +91,9 @@ print(x)
 # Dengan cara ini urutan argumen tidak menjadi masalah.
 def fungsiku(nama, usia, alamat):
     return f"nama: {nama} usia: {usia} alamat: {alamat}"
+
 x = fungsiku(nama='alice', usia=23, alamat='jakarta')
+
 # memasukan argumen tidak dalam urutan
 y = fungsiku(alamat='bandung', nama='carl', usia=25)
 print(x)    # nama: alice usia: 23 alamat: jakarta
