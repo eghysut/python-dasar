@@ -30,7 +30,7 @@ try:
 except:
     # menulis pesan kesalahan
     print("variabel x tidak ada")
-# output:
+# Output:
 # variabel x tidak ada
 
 # Karena blok try menimbulkan kesalahan, blok exception akan dieksekusi.
@@ -50,7 +50,7 @@ except:
 else:
     # jika tidak terjadi error tampilkan pesan ini
     print('kode program tidak ada error')
-# output:
+# Output:
 # hello world
 # kode program tidak ada error
 
@@ -68,7 +68,7 @@ else:
         print('hello world', i)
 finally:
     print("akhir dari program... selesai")
-# output:
+# Output:
 # hello world
 # tidak ada error
 # hello world 1
@@ -84,7 +84,7 @@ else:
     print('tidak ada error')
 finally:
     print('akhir dari program... selesai')
-# output:
+# Output:
 # indeks string di luar jangkauan
 # akhir dari program... selesai
 
@@ -104,7 +104,7 @@ except Exception as err:
     # kode yang akan dieksekusi jika terjadi kesalahan
     # 'err' merupakan variabel yang menyimpan informasi tentang kesalahan yang terjadi
     print("terjadi kesalahan:", err)
-# output:
+# Output:
 # terjadi kesalahan: name 'y' is not defined
 
 # Anda tidak perlu mencari jenis tipe error, cukup gunakan klausa "except Exception as err"
@@ -114,7 +114,7 @@ except Exception as err:
     print("(!) terjadi kesalahan:", err)
 finally:
     print("selesai.")
-# output:
+# Output:
 # (!) terjadi kesalahan: division by zero
 # selesai.
 
@@ -125,7 +125,7 @@ try:
     print(100 / 0)
 except ZeroDivisionError as err:
     print("[!] Error:", err)
-# output:
+# Output:
 # [!] Error: division by zero
 
 # Anda dapat menentukan blok except sebanyak yang Anda inginkan, dan
@@ -137,13 +137,13 @@ except NameError:   # menangani kesalahan NameError
     print("variabel x tidak ada")
 except ZeroDivisionError:   # menangani kesalahan ZeroDivisionError
     print("bilangan tidak bisa dibagi dengan angka nol")
-# output:
+# Output:
 # bilangan tidak bisa dibagi dengan angka nol
 
 # cara untuk mengetahui type error jalankan program dibawah ini:
 #print(100/0)
 
-# output:
+# Output:
 # Traceback (most recent call last):
 #   File "stage37_try_except.py", line 50, in <module>
 #     print(100/0)
