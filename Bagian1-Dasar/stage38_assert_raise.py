@@ -63,7 +63,7 @@ if __name__=='__main__':
       print(hasil)
     except ValueError as e:
       print("Terjadi kesalahan:", e)
-    # output:
+    # Output:
     # Terjadi kesalahan: Tidak bisa membagi dengan 0
 
 # Pada contoh di atas, fungsi bagi() akan menaikan kesalahan exception ValueError 
