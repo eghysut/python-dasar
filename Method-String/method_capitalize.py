@@ -32,6 +32,7 @@ print(y)
 # Ingat: 
 # Semua method/metode/fungsi string mengembalikan nilai baru. 
 # Mereka tidak mengubah string asli.
+
 s = "hello world"
 # string melakukan perubahan
 print(s.capitalize())   
