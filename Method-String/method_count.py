@@ -16,12 +16,17 @@
 # menggunakan parameter nilai
 # ada berapakah jumlah nama alice?
 x = "hei alice myalice hello alice worldalice".count('alice')
-print(x)    # 4
+print(x)    
+# Output:
+# 4
 
 # menggunakan parameter nilai, awal, dan akhir
 # ada berapakah jumlah nama alice?
 y = "hei alice myalice hello alice worldalice".count('alice', 10, 20)
-print(y)    # 1
+print(y)    
+# Output:
+# 1
+
 # parameter nilai 'alice'
 # parameter awal 10, berarti dimulai dari huruf 'm' "ingat indeks string dimulai dari 0"
 # parameter akhir 20, berarti diakhiri sampai huruf 'l'
@@ -32,7 +37,9 @@ print(y)    # 1
 # print(coba[10])
 # print(coba[20])
 
-print("hei alice myalice hello alice worldalice".count('alice', 10, 100))  # 3
+print("hei alice myalice hello alice worldalice".count('alice', 10, 100))  
+# Output:
+# 3
 
 # contoh nyata jika anda ingin mencari domain web tersebut dan menggantinya 
 url = input("masukan host: ")
@@ -45,8 +52,9 @@ else:
     url = 'https://' + url
     if url.count('www'):
         url = url.replace('www', 'docs', 1)
-print(url)  # https://docs.python.org
-
+print(url)  
+# Output:
+# https://docs.python.org
 
 # Ingat: 
 # Semua method/metode/fungsi string mengembalikan nilai baru. 
@@ -55,10 +63,13 @@ s = "hei alice myalice hello alice worldalice"
 # string melakukan perubahan
 print(s.count('alice', 10, 30))  # 2
 # string tidak melakukan perubahan
-print(s)    # "hei alice myalice hello alice worldalice"
-
+print(s)    
+# Output:
+# "hei alice myalice hello alice worldalice"
 
 # string tidak melakukan perubahan
 s = "hei alice myalice hello alice worldalice"
 s.count('alice', 10, 30)
-print(s)    # "hei alice myalice hello alice worldalice"
+print(s)    
+# Output:
+# "hei alice myalice hello alice worldalice"
