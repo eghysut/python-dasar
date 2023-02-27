@@ -21,21 +21,25 @@
 
 # mengubah objek bytes menjadi string
 txt = b"hello world \xe2\x9c\xa8"
-print(txt)  # b'hello world \xe2\x9c\xa8'
+print(txt)  
+# Output:
+# b'hello world \xe2\x9c\xa8'
+
 # decode objek bytes menjadi string
 print(txt.decode())
-# Output pada linux:
+# Output:
 # hello world ✨
-
-# Output pada windows:
-# hello world â¨ atau,
-# hello world �
 
 alphabet = "αβγδεζηθικλμνξοπρςστυφχψ"
 # menggunakan method encode() untuk mengubah objek string menjadi bytes
 alpha_utf_8 = alphabet.encode()
 print(alpha_utf_8)
+# Output:
+# b'\xce\xb1\xce\xb2\xce\xb3\xce\xb4\xce\xb5\xce\xb6\xce\xb7\xce\xb8\xce\xb9\xce\xba\xce\xbb\xce\xbc\xce\xbd\xce\xbe\xce\xbf\xcf\x80\xcf\x81\xcf\x82\xcf\x83\xcf\x84\xcf\x85\xcf\x86\xcf\x87\xcf\x88'
+
 print(alpha_utf_8.decode())
+# Output:
+# αβγδεζηθικλμνξοπρςστυφχψ
 
 # Contoh-contoh ini menggunakan ascii encoding ,  dan karakter yang tidak dapat dikodekan, 
 # menunjukkan hasil dengan kesalahan yang berbeda:
@@ -47,22 +51,29 @@ print(alpha_utf_8.decode())
 # 'replace'           : Mengganti karakter dengan tanda tanya
 # 'xmlcharrefreplace' : Mengganti karakter dengan karakter xml
 
-# ini hanyalah sebuah contoh sederhana untuk memahaminya, 
+# ini hanyalah sebuah contoh sederhana untuk memahaminya.
 # dalam tutorial ini parameternya diubah menjadi 'ascii', 
 # bagaimana cara fungsi decode() bekerja jika karakter string tidak tertangani.
 
 txt = "ålice"
 var = txt.encode()
 # errors
-print(var.decode(encoding="ascii", errors="backslashreplace"))  # \xc3\xa5lice
+print(var.decode(encoding="ascii", errors="backslashreplace"))  
+# Output:
+# \xc3\xa5lice
+
 # passed
 # print(var.decode(encoding="utf-8", errors="backslashreplace"))  # ålice
 
 # ingat perameter dari fungsi decode() opsional di tulis atau tidak, defaultnya utf-8.
 txt = "ålice"
 var = txt.encode()
+
 # errors
-print(var.decode("ascii", "ignore"))    # lice
+print(var.decode("ascii", "ignore"))    
+# Output:
+# lice
+
 # passed
 # print(var.decode("utf-8", "ignore"))    # ålice
 
