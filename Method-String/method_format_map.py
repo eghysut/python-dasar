@@ -34,12 +34,14 @@ print(table.format_map(data_mahasiswa))
 # usia: [23, 27, 22]
 # jurusan: ['teknik komputer', 'teknik mesin', 'teknik jaringan']
 
+# menampilkan data mahasiswa alice
 print("nama: {nama[0]} \nusia: {usia[0]} \njurusan: {jurusan[2]}".format_map(data_mahasiswa))
 # Output:
 # nama: alice
 # usia: 23
 # jurusan: teknik jaringan
 
+# menampilkan data mahasiswa eliot
 print("nama: {nama[2]} \nusia: {usia[1]} \njurusan: {jurusan[1]}".format_map(data_mahasiswa))
 # Output:
 # nama: eliot
