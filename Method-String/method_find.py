@@ -21,15 +21,36 @@
 s = "alice bob carl bob"
 hasil = s.find("bob")
 # ingat index string dimulai dari 0
-print(hasil)    # 6
-print(s[6])     # b
-print(s[6:])    # bob carl bob
+print(hasil)    
+# Output:
+# 6
+
+print(s[6])     
+# Output:
+# b
+
+print(s[6:])    
+# Output:
+# bob carl bob
 
 s = "alice bob carl alice eliot"
-print(s.find("alice", 2))   # 15
-print(s.find("alice", 10))  # 15
-print(s[s.find("alice", 2):])   # alice eliot
+print(s.find("alice", 2))   
+# Output:
+# 15
+
+print(s.find("alice", 10))  
+# Output:
+# 15
+
+print(s[s.find("alice", 2):])   
+# Output:
+# alice eliot
 
 s = "python3.8|python3.9|python3.10"
-print(s.find("python3"))    # 0
-print(s.find("python2"))    # -1
+print(s.find("python3"))    
+# Output:
+# 0
+
+print(s.find("python2"))    
+# Output:
+# -1
