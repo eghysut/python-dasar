@@ -37,7 +37,11 @@ print("hello world".index("l", 4))  # 9
 
 s = "alice carl eliot"
 f = s.find("xxx")
-print(f)    # mengembalikan -1
+print(f)    
+# Output:
+# mengembalikan -1
+
 i = s.index("xxx")
-print(i)    
+print(i)
+# Output:
 # mengembalikan kesalahan ValueError:
