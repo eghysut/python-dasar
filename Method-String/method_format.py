@@ -27,4 +27,4 @@ print(data1)    # nama: alice usia: 23
 print(data2)    # nama: carl usia: 23
 print(data3)    # nama: eliot usia: 23
 
-# Pelajari lebih lanjut tentang formatting python di folder_name: "python-formatting"
+# Pelajari lebih lanjut tentang formatting di python folder_name: "python-formatting"
