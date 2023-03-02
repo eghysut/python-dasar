@@ -17,8 +17,13 @@
 
 x = "hello world!"
 y = "~>!@#$%^&*()-=_+;<>?/,.0123{}'|\\"
-print(x.isascii())  # True
-print(y.isascii())  # True
+print(x.isascii())  
+# Output:
+# True
+
+print(y.isascii())  
+# Output:
+# True
 
 # jalankan program di bawah ini:
 # menampilkan semua kode dan karakter ascii
