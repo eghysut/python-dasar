@@ -20,11 +20,21 @@
 # tidak ada nilai parameter
 
 x = "HelloWorld"
+print(x.isidentifier()) 
+# Output:
+# True
+
 y = "Hello002"
-print(x.isidentifier()) # True
-print(x.isidentifier()) # True
+print(x.isidentifier()) 
+# Output:
+# True
 
 x = "5hello"
+print(x.isidentifier()) 
+# Output:
+# False
+
 y = "hello world"
-print(x.isidentifier()) # False
-print(y.isidentifier()) # False
+print(y.isidentifier()) 
+# Output:
+# False
