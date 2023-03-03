@@ -29,22 +29,41 @@ print(b.isdecimal()) # False
 print(f.isdecimal()) # False
 
 emoji = "🤨" # emoji unicode
+print(emoji.isdecimal())    
+# Output:
+# False
+
 alphabet = "αβγδεζηθικλμνξοπρςστυφχψ" # alphabet unicode
+print(alphabet.isdecimal()) 
+# Output:
+# False
+
 pecahan = "½"
+print(pecahan.isdecimal())  
+# Output:
+# False
 
-print(emoji.isdecimal())    # False
-print(alphabet.isdecimal()) # False
-print(pecahan.isdecimal())  # False
-
-print("hello123".isdecimal())   # False
+print("hello123".isdecimal())   
+# Output:
+# False
 
 x = "\u0030" # int 0 unicode
-y = "\u0039" # int 9 unicode
-print(x.isdecimal())    # True
-print(y.isdecimal())    # True
+print(x.isdecimal())    
+# Output:
+# True
 
-print(int(x, base=16))  # 0
-print(int(y, base=16))  # 9
+y = "\u0039" # int 9 unicode
+print(y.isdecimal()) 
+# Output:
+# True
+
+print(int(x, base=16))  
+# Output:
+# 0
+
+print(int(y, base=16))  
+# Output:
+# 9
 # jika ingin mempelajari lebih lanjut tentang fungsi-bawaan int() kunjungi folder_name: "Fungsi-Bawaan/fungsi_int.py"
 
 # menghasilkan karakter unicode
