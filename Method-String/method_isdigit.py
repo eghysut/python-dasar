@@ -18,18 +18,35 @@
 # tidak ada nilai parameter
 
 exponen = "⁰¹²³⁴⁵⁶⁷⁸⁹"
-print(exponen.isdigit())    # True
+print(exponen.isdigit()) 
+# Output:
+# True
 
 pecahan = "1½"
-print(pecahan.isdigit())    # False
+print(pecahan.isdigit())    
+# Output:
+# False
 
 x = "2⁵"
-print(x.isdigit())  # True
+print(x.isdigit())  
+# Output:
+# True
 
-print("\u0030".isdigit())   # True
-print("\u00B2".isdigit())   # True
-print("\u0078".isdigit())   # False karena jenis unicode huruf 'x'
-print("\u0079".isdigit())   # False karena jenis unicode huruf 'y'
+print("\u0030".isdigit())   
+# Output:
+# True
+
+print("\u00B2".isdigit())   
+# Output:
+# True
+
+print("\u0078".isdigit())   
+# Output:
+# False karena jenis unicode huruf 'x'
+
+print("\u0079".isdigit())   
+# Output:
+# False karena jenis unicode huruf 'y'
 
 # periksa apakah karakter unicode adalah jenis angka?
 if "\u00B3".isdigit():
@@ -38,9 +55,14 @@ else:
     print("failed")
 
 x = "\u0030" # int 0 unicode
+print(x.isdigit())    
+# Output:
+# True
+
 y = "\u0039" # int 9 unicode
-print(x.isdigit())    # True
-print(y.isdigit())    # True
+print(y.isdigit())    
+# Output:
+# True
 
 print(int(x, base=16))  # 0
 print(int(y, base=16))  # 9
