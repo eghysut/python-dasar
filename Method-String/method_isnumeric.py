@@ -20,35 +20,65 @@
 # tidak ada nilai parameter
 
 pecahan = "½"
+print(pecahan.isnumeric()) 
+# Output:
+# True
+
 exponen = "5⁵"
-print(pecahan.isnumeric()) # True
-print(exponen.isnumeric()) # True
-print("0".isnumeric())  # True
+print(exponen.isnumeric()) 
+# Output:
+# True
+
+print("0".isnumeric())  
+# Output:
+# True
 
 x = "1.5"
+print(x.isnumeric()) 
+# Output:
+# False
+
 y = "-5"
-print(x.isnumeric()) # False
-print(y.isnumeric()) # False
+print(y.isnumeric()) 
+# Output:
+# False
 
 # periksa apakah nilai unicode termasuk numerik?
 if "\u00B3".isnumeric():
     print("passed")
 else:
     print("failed")
+# Output:
+# passed
 
 x = "\u0030"    # unicode jenis angka
-y = "\u0039"    # unicode jenis angka
 print(x.isnumeric())
-print(y.isnumeric())
+# Output:
+# True
 
-print(int(x, base=16))  # 0
-print(int(y, base=16))  # 9
+y = "\u0039"    # unicode jenis angka
+print(y.isnumeric())
+# Output:
+# True
+
+print(int(x, base=16))  
+# Output:
+# 0
+
+print(int(y, base=16))  
+# Output:
+# 9
 # jika ingin mempelajari lebih lanjut tentang fungsi-bawaan int() kunjungi folder_name: "Fungsi-Bawaan/fungsi_int.py"
 
 x = "\u0078"    # unicode jenis huruf
+print(x.isnumeric()) 
+# Output:
+# False
+
 y = "\u0079"    # unicode jenis huruf
-print(x.isnumeric()) # False
-print(y.isnumeric()) # False
+print(y.isnumeric()) 
+# Output:
+# False
 
 # jalankan kode dibawah ini:
 # menghasilkan karakter unicode
