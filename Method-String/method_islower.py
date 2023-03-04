@@ -17,19 +17,37 @@
 # tidak ada nilai parameter
 
 x = "hello 123 world"
+print(x.islower())  
+# Output:
+# True
+
 y = "hello_world@gmil.com"
-print(x.islower())  # True
-print(y.islower())  # True
-print("#!/usr/bin/python".islower()) # True
+print(y.islower())  
+# Output:
+# True
+
+print("#!/usr/bin/python".islower()) 
+# Output:
+# True
 
 x = "Hello 123 World"
+print(x.islower())  
+# Output:
+# False
+
 y = "hello_World@gmail.com"
-print(x.islower())  # False
-print(y.islower())  # False
-print("#!/usr/bin/Python".islower()) # False
+print(y.islower())  
+# Output:
+# False
+
+print("#!/usr/bin/Python".islower()) 
+# Output:
+# False
 
 # periksa apakah karakter huruf kecil semua?
 if "python3.8|3.9|3.10".islower():
     print("passed")
 else:
     print("failed")
+# Output:
+# passed
