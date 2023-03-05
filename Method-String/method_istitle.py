@@ -40,13 +40,22 @@ print(x.istitle())
 # False
 
 y = "Hello Alice, carl, eliot"
-print(y.istitle()) # False
+print(y.istitle()) 
+# Output:
+# False
 
-print("#!/Usr/Bin/python3".istitle()) # False
-print("#Hello_world@gmail.com".istitle()) # False
+print("#!/Usr/Bin/python3".istitle()) 
+# Output:
+# False
+
+print("#Hello_world@gmail.com".istitle()) 
+# Output:
+# False
 
 # periksa apakah karakter diawali dengan huruf besar?
 if "Python3.8|Python3.9|Python3.10".istitle():
     print("passed")
 else:
     print("failed")
+# Output:
+# passed
