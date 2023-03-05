@@ -18,21 +18,40 @@
 # tidak ada nilai parameter
 
 x = "hello world"
+print(x.isprintable())  
+# Output:
+# True
+
 y = "#hello123world_@gmail.com"
-print(x.isprintable())  # True
-print(y.isprintable())  # True
+print(y.isprintable())  
+# Output:
+# True
 
 x = "hello\nworld"
-y = "hello\tworld"
-print(x.isprintable())  # False
-print(y.isprintable())  # False
+print(x.isprintable())  
+# Output:
+# False
 
-print("hello\rworld".isprintable()) # False
-print("hello\fworld".isprintable()) # False
-print("hello\bworld".isprintable()) # False
+y = "hello\tworld"
+print(y.isprintable()) 
+# Output:
+# False
+
+print("hello\rworld".isprintable()) 
+# Output:
+# False
+
+print("hello\fworld".isprintable()) 
+# Output:
+# False
+
+print("hello\bworld".isprintable()) 
+# Output:
+# False
 
 # periksa apakah ada kerakter pelarian/escape?
 if "\u0030".isprintable():
     print("passed")
 else:
     print("failed")
+# passed
