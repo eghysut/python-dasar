@@ -25,9 +25,17 @@ print(y.isspace())
 # Output:
 # True
 
-print("\t".isspace())   # True
-print("\f".isspace())   # True
-print("\r".isspace())   # True
+print("\t".isspace())   
+# Output:
+# True
+
+print("\f".isspace())   
+# Output:
+# True
+
+print("\r".isspace())   
+# Output:
+# True
 
 x = " hello world "
 print(x.isspace())  
