@@ -17,23 +17,45 @@
 # tidak ada nilai parameter
 
 x = "HELLO WORLD"
-y = "#HELLO@123WORLD"
-print(x.isupper())  # True
-print(y.isupper())  # True
+print(x.isupper())  
+# Output:
+# True
 
-print("HELLO @ALICE, @CARL, @ELIOT".isupper())  # True
-print("!A@B#C$D%E^F&G*H(I)J-K+L_M=".isupper())  # True
+y = "#HELLO@123WORLD"
+print(y.isupper())  
+# Output:
+# True
+
+print("HELLO @ALICE, @CARL, @ELIOT".isupper())  
+# Output:
+# True
+
+print("!A@B#C$D%E^F&G*H(I)J-K+L_M=".isupper())  
+# Output:
+# True
 
 x = "Hello World"
-y = "Hello123WorlD"
-print(x.isupper())  # False
-print(y.isupper())  # False
+print(x.isupper())  
+# Output:
+# False
 
-print("HELLO @Alice, @Carl, @Eliot".isupper())  # False
-print("!A@B#C$D%E^F&G*H(I)J-K+L_m=".isupper())  # False
+y = "Hello123WorlD"
+print(y.isupper())  
+# Output:
+# False
+
+print("HELLO @Alice, @Carl, @Eliot".isupper())  
+# Output:
+# False
+
+print("!A@B#C$D%E^F&G*H(I)J-K+L_m=".isupper())  
+# Output:
+# False
 
 # Periksa apakah karakter memiliki huruf besar semua?
 if "PYTHON3.8|PYTHON3.9|PYTHON3.10".isupper():
     print("passed")
 else:
     print("failed")
+# Output:
+# passed
