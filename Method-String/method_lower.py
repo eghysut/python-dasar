@@ -25,5 +25,10 @@ print(y.lower())
 # Output:
 # h3ll0_w0rld#1
 
-print("heLlO_WoRlD@gmail.com".lower())  # hello_world@gmail.com
-print("ABCDEFGHIJKLMNOPQRSTUVWXYZ".lower()) # abcdefghijklmnopqrstuvwxyz
+print("heLlO_WoRlD@gmail.com".lower())  
+# Output:
+# hello_world@gmail.com
+
+print("ABCDEFGHIJKLMNOPQRSTUVWXYZ".lower()) 
+# Output:
+# abcdefghijklmnopqrstuvwxyz
