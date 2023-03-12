@@ -17,14 +17,30 @@
 # karakter              Opsional. Satu set karakter untuk dihapus sebagai karakter utama
 
 x = "   Hello World"
+print(x.lstrip()) 
+# Output:
+# Hello World
+
 y = "https://www.google.com"
-print(x.lstrip()) # Hello World
-print(y.lstrip('htps:/'))   # www.google.com
+print(y.lstrip('htps:/'))   
+# Output:
+# www.google.com
 
 
 x = "   hello world    "
+print(x.lstrip())
+# Output:
+# hello world  "ini sebenernya ada karakter (spasi)"
+
+print(x.lstrip(), '<-spasi')  
+# Output:
+# hello world      <-spasi
+
+print(x.lstrip() + '<-spasi') 
+# Output:
+# hello world     <-spasi
+
 y = "..,,,Hello, world!"
-print(x.lstrip())   # hello world  "ini sebenernya ada karakter (spasi)"
-print(x.lstrip(), '<-spasi')  # hello world      <-spasi
-print(x.lstrip() + '<-spasi') # hello world     <-spasi
-print(y.lstrip('.,')) # Hello, world!
+print(y.lstrip('.,')) 
+# Output:
+# Hello, world!
