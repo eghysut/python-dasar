@@ -16,9 +16,14 @@
 # tidak ada nilai parameter
 
 x = "HELLO WORLD"
+print(x.lower())    
+# Output:
+# hello world
+
 y = "H3Ll0_w0RlD#1"
-print(x.lower())    # hello world
-print(y.lower())    # h3ll0_w0rld#1
+print(y.lower())    
+# Output:
+# h3ll0_w0rld#1
 
 print("heLlO_WoRlD@gmail.com".lower())  # hello_world@gmail.com
 print("ABCDEFGHIJKLMNOPQRSTUVWXYZ".lower()) # abcdefghijklmnopqrstuvwxyz
