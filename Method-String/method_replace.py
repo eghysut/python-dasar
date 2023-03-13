@@ -21,18 +21,26 @@
 
 s = "hello world!"
 x = s.replace('hello', 'war')
-print(x)    # war world
+print(x)    
+# Output:
+# war world
 
 s = "hello world!"
 x = s.replace('word', 'false')
-print(x)    # hello world!
+print(x)    
+# Output:
+# hello world!
 
 s = "hello world"
-print(s.replace('world', 'alice'))  # hello alice
+print(s.replace('world', 'alice'))  
+# Output:
+# hello alice
 
 s = "tak tik tuk tek tok"
 x = s.replace('t', 'b', 3)
-print(x)    # bak bik buk tek tok
+print(x)    
+# Output:
+# bak bik buk tek tok
 
 # Hati-hati jika karakter \n (LF) yang digunakan di os Unix, termasuk Mac, dan
 # \r\n (CR + LF) yang digunakan di os Windows dicampur.
@@ -41,21 +49,33 @@ print(x)    # bak bik buk tek tok
 # Contoh berikut juga menunjukkan hasil repr() yang menghasilkan \n dan \r sebagai string.
 
 text = "alice\nbob\r\neliot"
-print(text.replace('\r\n', '-').replace('\n', '-')) # alice-bob-eliot
-print(text.replace('\n', '-').replace('\r\n', '-')) # -eliot-bob
+print(text.replace('\r\n', '-').replace('\n', '-')) 
+# Output:
+# alice-bob-eliot
 
+print(text.replace('\n', '-').replace('\r\n', '-')) 
+# Output:
+# -eliot-bob
 
 # Ingat: 
 # Semua method/metode/fungsi string mengembalikan nilai baru. 
 # Mereka tidak mengubah string asli.
 s = "hello world"
 # string melakukan perubahan
-print(s.replace('hello', 'war'))    # war world
+print(s.replace('hello', 'war'))    
+# Output:
+# war world
+
 # string tidak melakukan perubahan
-print(s)    # hello world
+print(s)    
+# Output:
+# hello world
 
 # string tidak melakukan perubahan
 s = "hello world"
 s.replace('hello', 'war')
-print(s)    # hello world
+print(s)    
+# Output:
+# hello world
+
 # jika ingin mempelajari lebih lanjut tentang escape/pelarian karakter kunjungi folder_name: "Bagian1-DASAR/stage13_escape_character.py"
