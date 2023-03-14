@@ -21,12 +21,22 @@
 
 text = "hello alice carl eliot"
 x = text.rindex('alice')
-y = text.rindex('carl')
+print(x)    
+# Output:
+# 6
 
-print(x)    # 6
-print(y)    # 12
-print(text[x:]) # alice carl eliot
-print(text[y:]) # carl eliot
+y = text.rindex('carl')
+print(y)    
+# Output:
+# 12
+
+print(text[x:]) 
+# Output:
+# alice carl eliot
+
+print(text[y:]) 
+# Output:
+# carl eliot
 
 text = "hello alice carl eliot alice world"
 x = text.rindex('alice')
@@ -44,4 +54,4 @@ print("hello world".rindex('war'))
 # Output:
 # kesalahan runtime ValueError: substring not found
 
-# jika ingin mempelajari lebih lanjut tentang string slice[start:end] kunjungi folder_name: "Bagian1-DASAR/stage09_slice_string.p
+# jika ingin mempelajari lebih lanjut tentang string slice[start:end] kunjungi folder_name: "Bagian1-DASAR/stage09_slice_string.py"
