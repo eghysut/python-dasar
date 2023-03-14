@@ -21,12 +21,22 @@
 
 text = "hello alice carl eliot"
 x = text.rfind('alice')
-y = text.rfind('carl')
+print(x)    
+# Output:
+# 6
 
-print(x)    # 6
-print(y)    # 12
-print(text[x:]) # alice carl eliot
-print(text[y:]) # carl eliot
+y = text.rfind('carl')
+print(y)    
+# Output:
+# 12
+
+print(text[x:]) 
+# Output:
+# alice carl eliot
+
+print(text[y:]) 
+# Output:
+# carl eliot
 
 text = "hello alice carl eliot alice world"
 x = text.rfind('alice')
@@ -39,5 +49,8 @@ print(text[x:]) # alice world
 print(text[y:]) # e world
 print(text[z:]) # eliot alice world
 
-print("hello world".rfind('war'))   # -1
-# jika ingin mempelajari lebih lanjut tentang string slice[start:end] kunjungi folder_name: "Bagian1-DASAR/stage09_slice_string.py"
+print("hello world".rfind('war'))   
+# Output:
+# -1
+
+# jika ingin mempelajari lebih lanjut tentang string slice[start:end] kunjungi folder_name: "Bagian1-DASAR/stage09_slice_string.p
