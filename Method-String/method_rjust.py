@@ -17,16 +17,24 @@
 # karakter              Opsional. Sebuah karakter untuk mengisi spasi yang hilang (di sebelah kiri string). Standarnya/default adalah " " (spasi).
 
 x = "hello"
+print(x.rjust(20))        
+# Output:
+#                hello
+
 y = "hello"
-print(x.rjust(20))        #                hello
-print(y.rjust(20, '+'))   # +++++++++++++++hello
+print(y.rjust(20, '+'))   
+# Output:
+# +++++++++++++++hello
 
 # contoh dengan daftar judul buku
 print("1.", 'python3'.rjust(20, '.'))
 print("2.", 'python-oop'.rjust(20, '.'))
 print("3.", 'python-expert'.rjust(20, '.'))
+# Output:
 # 1. .............python3
 # 2. ..........python-oop
 # 3. .......python-expert
 
-print("123".rjust(5, '0'))  # 00123
+print("123".rjust(5, '0'))  
+# Output:
+# 00123
