@@ -21,15 +21,24 @@
 
 text = "hello alice carl eliot"
 x = text.rpartition('alice')
-y = text.rpartition('carl')
+print(x)    
+# Output:
+# ('hello ', 'alice', ' carl eliot')
 
-print(x)    # ('hello ', 'alice', ' carl eliot')
-print(y)    # ('hello alice ', 'carl', ' eliot')
+y = text.rpartition('carl')
+print(y)    
+# Output:
+# ('hello alice ', 'carl', ' eliot')
 
 text = "hello alice carl eliot alice"
 x = text.rpartition('alice')
-y = text.rpartition('python')
+print(x)    
+# Output:
+# ('hello alice carl eliot ', 'alice', '')
 
-print(x)    # ('hello alice carl eliot ', 'alice', '')
-print(y)    # ('', '', 'hello alice carl eliot alice')
+y = text.rpartition('python')
+print(y)    
+# Output:
+# ('', '', 'hello alice carl eliot alice')
+
 # jika ingin mempelajari lebih lanjut tentang Method-Tuple kunjungi folder_name: "Method-Tuple"
