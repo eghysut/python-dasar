@@ -17,12 +17,18 @@
 # maxsplit              Opsional. Menentukan berapa banyak split yang harus dilakukan. Nilai default adalah -1, yang merupakan "semua kejadian"
 
 x = "Hello World"
-print(x.split())    # ['Hello', 'World']
+print(x.split())   
+# Output: 
+# ['Hello', 'World']
 
 x = "alice#carl#eliot"
-print(x.split('#')) # ['alice', 'carl', 'eliot']
+print(x.split('#')) 
+# Output:
+# ['alice', 'carl', 'eliot']
 
 x = "alice#carl#eliot"
-print(x.split('#', 1))  # ['alice', 'carl#eliot']
+print(x.split('#', 1))  
+# Output:
+# ['alice', 'carl#eliot']
 
 # jika ingin mempelajari lebih lanjut tentang Method-List kunjungi folder_name: "Method-List"
