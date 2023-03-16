@@ -17,9 +17,14 @@
 # jedabaris             Opsional. Menentukan apakah jeda baris harus disertakan (True), atau tidak (False). Nilai default adalah False
 
 x = "hello \nworld"
+print(x.splitlines())       
+# Output:
+# ['hello ', 'world']
+
 y = "hello \nworld"
-print(x.splitlines())       # ['hello ', 'world']
-print(y.splitlines(True))   # ['hello \n', 'world']
+print(y.splitlines(True))   
+# Output:
+# ['hello \n', 'world']
 
 x = """Python adalah bahasa pemrograman tujuan umum yang ditafsirkan, 
 tingkat tinggi. Dibuat oleh Guido van Rossum dan pertama kali dirilis pada tahun 1991, 
@@ -27,6 +32,8 @@ filosofi desain Python menekankan keterbacaan kode dengan penggunaan spasi putih
 print(x.splitlines())
 
 x = "hello alice carl eliot"
-print(x.splitlines())   # ['hello alice carl eliot']
+print(x.splitlines())   
+# Output:
+# ['hello alice carl eliot']
 
 # jika ingin mempelajari lebih lanjut tentang Method-List kunjungi folder_name: "Method-List"
