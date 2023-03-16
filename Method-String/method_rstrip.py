@@ -17,9 +17,16 @@
 # karakter                  Opsional. Satu set karakter untuk dihapus sebagai karakter tambahan
 
 x = "Hello    "
+print(x.rstrip(), 'world') 
+# Output:
+# Hello world
+
 y = "Hello World..,.,!.,!" 
-print(x.rstrip(), 'world') # Hello world
-print(y.rstrip('.,!'))     # Hello World
+print(y.rstrip('.,!'))     
+# Output:
+# Hello World
 
 x = "....hello world...."
-print(x.rstrip('.'))    # ....hello world
+print(x.rstrip('.'))    
+# Output:
+# ....hello world
