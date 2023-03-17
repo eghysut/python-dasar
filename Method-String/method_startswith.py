@@ -18,12 +18,26 @@
 # end                   Opsional. Integer yang menentukan di posisi mana untuk mengakhiri pencarian
 
 x = "hello world"
-print(x.startswith('hello'))    # True
-print(x.startswith('world', 6)) # True
+print(x.startswith('hello'))    
+# Output:
+# True
+
+print(x.startswith('world', 6)) 
+# Output:
+# True
 
 x = "hello alice carl eliot world"
-print(x.startswith('hello', 6))     # False
-print(x.startswith('world', -5))    # True
-print(x.startswith('alice', 6, 20)) # True
+
+print(x.startswith('hello', 6))     
+# Output:
+# False
+
+print(x.startswith('world', -5))    
+# Output:
+# True
+
+print(x.startswith('alice', 6, 20)) 
+# Output:
+# True
 
 # jika ingin mempelajari lebih lanjut tentang string slice[start:end] kunjungi folder_name: "Bagian1-DASAR/stage09_slice_string.py"
