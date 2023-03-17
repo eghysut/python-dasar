@@ -17,11 +17,20 @@
 # karakter              Opsional. Satu set karakter untuk dihapus sebagai karakter utama/pengikut
 
 x = "   hello world   "
+print(x.strip())    
+# Output:
+# hello world
+
 y = "...hello world..."
-print(x.strip())    # hello world
-print(y.strip('.')) # hello world
+print(y.strip('.')) 
+# Output:
+# hello world
 
 x = "https://www.google.com"
-print(x.strip('htps:/'))    # www.google.com
+print(x.strip('htps:/'))   
+# Output:
+# www.google.com
 
-print("hello world".strip('abcdefgh'))  # llo worl
+print("hello world".strip('abcdefgh'))  
+# Output:
+# llo worl
