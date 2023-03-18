@@ -17,10 +17,20 @@
 # tidak ada nilai parameter
 
 x = "hello world"
+print(x.title())    
+# Output:
+# Hello World
+
 y = "123hello world"
-print(x.title())    # Hello World
-print(y.title())    # 123Hello World
+print(y.title())    
+# Output:
+# 123Hello World
 
 x = "@alice $carl #eliot"
-print(x.title())    # @Alice $Carl #Eliot
-print("123a456b789c".title())   # 123A456B789C
+print(x.title())    
+# Output:
+# @Alice $Carl #Eliot
+
+print("123a456b789c".title())   
+# Output:
+# 123A456B789C
