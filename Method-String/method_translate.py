@@ -25,13 +25,17 @@
 text = "hello world"
 # 101 -> 'e', 51 -> '3', 111 -> 'o', 48 -> '0'
 kode_asci = {101: 51, 111: 48}
-print(text.translate(kode_asci))    # h3ll0 w0rld
+print(text.translate(kode_asci))    
+# Output:
+# h3ll0 w0rld
 
 text = "hello alice carl eliot"
 sumber = "aeio"
 tujuan = "4310"
 kode_asci = text.maketrans(sumber, tujuan)
-print(text.translate(kode_asci))    # h3ll0 4l1c3 c4rl 3l10t
+print(text.translate(kode_asci))
+# Output:
+# h3ll0 4l1c3 c4rl 3l10t
 
 # jika ingin mempelajari lebih lanjut tentang kode ascii kunjungi folder_name: "python-encoding"
 # jika ingin mempelajari lebih lanjut tentang Method-String maketrans() kunjungi folder_name: "Method-String/method_maketrans.py"
