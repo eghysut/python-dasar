@@ -15,8 +15,15 @@
 # tidak ada nilai parameter
 
 x = "Hello World"
-y = "HELLO WoRlD!"
 print(x.swapcase())
-print(y.swapcase())
+# Output:
+# hELLO wORLD
 
-print("Alice#Carl#ELIOT".swapcase())    # aLICE#cARL#eliot
+y = "HELLO WoRlD!"
+print(y.swapcase())
+# Output:
+# hello wOrLd!
+
+print("Alice#Carl#ELIOT".swapcase()) 
+# Output:  
+# aLICE#cARL#eliot
