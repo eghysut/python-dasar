@@ -16,12 +16,18 @@
 # Tidak ada nilai parameter
 
 s = "hello world!".upper()
-print(s)    # HELLO WORLD!
+print(s)    
+# Output:
+# HELLO WORLD!
 
 s = "99hello world".upper()
-print(s)    # 99HELLO WORLD
+print(s)    
+# Output:
+# 99HELLO WORLD
 
-print("#hello_world123@gmail.com".upper())  # #HELLO_WORLD123@GMAIL.COM
+print("#hello_world123@gmail.com".upper())  
+# Output:
+# #HELLO_WORLD123@GMAIL.COM
 
 
 # Ingat: 
@@ -29,11 +35,16 @@ print("#hello_world123@gmail.com".upper())  # #HELLO_WORLD123@GMAIL.COM
 # Mereka tidak mengubah string asli.
 s = "hello world!"
 # string melakukan perubahan
-print(s.upper())    # HELLO WORLD!
+print(s.upper())    
+# Output:
+# HELLO WORLD!
+
 # string tidak melakukan perubahan
-print(s)    # hello world!
+print(s)    
+# Output:
+# hello world!
 
 # string tidak melakukan perubahan
 x = "hello world!"
 x.upper()
-print(x)    # hello world!
+print(x)    # hello world
