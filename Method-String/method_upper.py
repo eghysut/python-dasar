@@ -47,4 +47,6 @@ print(s)
 # string tidak melakukan perubahan
 x = "hello world!"
 x.upper()
-print(x)    # hello world
+print(x)    
+# Output:
+# hello world!
