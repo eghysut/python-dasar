@@ -18,10 +18,21 @@
 
 
 x = "hello"
-print(x.zfill(5))   # hello
-print(x.zfill(6))   # 0hello
-print(x.zfill(10))  # 00000hello
-print(x.zfill(20))  # 000000000000000hello
+print(x.zfill(5))   
+# Output:
+# hello
+
+print(x.zfill(6))   
+# Output:
+# 0hello
+
+print(x.zfill(10))  
+# Output:
+# 00000hello
+
+print(x.zfill(20))  
+# Output:
+# 000000000000000hello
 
 x = "123"
 print(x.zfill(3))   # 123
@@ -38,4 +49,4 @@ for i in range(30, 81): # ubah nilai range(1, 1000)
 
 # jika ingin mempelajari lebih lanjut tentang formating string kunjungi folder_name: "python-formatting"
 # jika ingin mempelajari lebih lanjut tentang encoding unicode kunjungi folder_name: "python-encoding"
-# jika ingin mempelajari lebih lanjut tentang fungsi-bawaan str(), chr(), dan int() kunjungi folder_name: "Fungsi-Bawaan
+# jika ingin mempelajari lebih lanjut tentang fungsi-bawaan str(), chr(), dan int() kunjungi folder_name: "Fungsi-Bawaan"
