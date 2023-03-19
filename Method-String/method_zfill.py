@@ -35,9 +35,17 @@ print(x.zfill(20))
 # 000000000000000hello
 
 x = "123"
-print(x.zfill(3))   # 123
-print(x.zfill(5))   # 00123
-print(x.zfill(10))  # 0000000123
+print(x.zfill(3))   
+# Output:
+# 123
+
+print(x.zfill(5))   
+# Output:
+# 00123
+
+print(x.zfill(10))  
+# Output:
+# 0000000123
 
 
 # menghasilkan karakter unicode
