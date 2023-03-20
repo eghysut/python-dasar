@@ -10,7 +10,7 @@
 # Nilai Parameter
 # tidak ada nilai parameter
 
-# Catatan: Output 
+Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut 
 
 setku = {'alice', 'carl', 'eliot'}
 print(setku)
