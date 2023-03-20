@@ -14,5 +14,11 @@
 
 setku = {'alice', 'carl', 'eliot'}
 print(setku)
+# Output:
+# {'carl', 'alice', 'eliot'}
+
 setku.clear()
+
 print(setku)
+# Output:
+# set()
