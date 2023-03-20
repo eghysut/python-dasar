@@ -12,7 +12,7 @@
 # Parameter                 Deskripsi
 # elemen                    Dibutuhkan. Elemen untuk ditambahkan ke set.
 
-# Catatan: Output anda akan berbeda, karena data set tidak terurut
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut
 
 setku = {'alice', 'carl'}
 setku.add('eliot')
