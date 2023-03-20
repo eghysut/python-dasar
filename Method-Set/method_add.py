@@ -12,9 +12,15 @@
 # Parameter                 Deskripsi
 # elemen                    Dibutuhkan. Elemen untuk ditambahkan ke set.
 
+# Catatan: Output anda akan berbeda, karena data set tidak terurut
+
 setku = {'alice', 'carl'}
 setku.add('eliot')
 print(setku)
+# Output:
+# {'carl', 'alice', 'eliot'}
 
 setku.add(False)
 print(setku)
+# Output:
+# {False, 'carl', 'alice', 'eliot'}
