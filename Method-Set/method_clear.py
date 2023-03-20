@@ -10,6 +10,8 @@
 # Nilai Parameter
 # tidak ada nilai parameter
 
+# Catatan: Output 
+
 setku = {'alice', 'carl', 'eliot'}
 print(setku)
 setku.clear()
