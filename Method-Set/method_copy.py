@@ -15,4 +15,6 @@ set_copy = setku.copy()
 print(setku)
 print(set_copy)
 
-print(setku == set_copy)    # Tru
+print(setku == set_copy)    
+# Output:
+# True
