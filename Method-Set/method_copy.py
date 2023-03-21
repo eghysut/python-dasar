@@ -13,6 +13,9 @@
 setku = {'alice', 'carl', 'eliot'}
 set_copy = setku.copy()
 print(setku)
+# Output:
+# {'carl', 'alice', 'eliot'}
+
 print(set_copy)
 
 print(setku == set_copy)    
