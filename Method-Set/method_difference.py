@@ -15,6 +15,8 @@
 # Parameter                 Deskripsi
 # set                       Dibutuhkan. Set untuk memeriksa perbedaan
 
+# Catatan: 
+
 # mengembalikan set yang berisi item yang hanya ada di set x, dan tidak ada di set y
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'alice'}
