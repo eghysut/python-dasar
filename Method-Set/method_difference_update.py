@@ -15,6 +15,8 @@
 # Parameter                 Deskripsi
 # set                       Dibutuhkan. Set untuk memeriksa perbedaan
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut
+
 # menghapus item set yang ada di set x dan y.
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'alice'}
