@@ -15,7 +15,7 @@
 # Parameter                 Deskripsi
 # set                       Dibutuhkan. Set untuk memeriksa perbedaan
 
-# Catatan: 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut
 
 # mengembalikan set yang berisi item yang hanya ada di set x, dan tidak ada di set y
 x = {'alice', 'carl', 'eliot'}
@@ -58,7 +58,12 @@ print(z)
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'eliot', 'world'}
 z = {'bert', 'geral', 'carl'}
-print(x.difference(y, z))   # {'alice'}
-print(x - y - z)            # {'alice'}
+print(x.difference(y, z))   
+# Output:
+# {'alice'}
+
+print(x - y - z)           
+# Output:
+# {'alice'}
 
 # jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
