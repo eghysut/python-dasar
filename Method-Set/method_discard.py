@@ -14,6 +14,8 @@
 # Parameter                     Deskripsi
 # value                         Dibutuhkan. Item yang akan dicari, dan dihapus.
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut
+
 # menghapus elemen dari set
 x = {'alice', 'carl', 'eliot'}
 x.discard('eliot')
