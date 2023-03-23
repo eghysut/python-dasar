@@ -19,8 +19,12 @@
 # menghapus elemen dari set
 x = {'alice', 'carl', 'eliot'}
 x.discard('eliot')
-print(x)    # {'alice', 'carl'}
+print(x)    
+# Output:
+# {'alice', 'carl'}
 
 # tidak memunculkan pesan error runtime
 x.discard('hello')
-print(x)    # {'alice', 'carl'}
+print(x)    
+# Output:
+# {'alice', 'carl'}
