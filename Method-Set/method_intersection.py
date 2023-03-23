@@ -17,6 +17,8 @@
 #                               Anda dapat membandingkan banyak set yang Anda suka.
 #                               Pisahkan set dengan koma
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut
+
 # mengembalikan set yang berisi item yang ada di kedua set x, dan set y
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'eliot', 'fox'}
