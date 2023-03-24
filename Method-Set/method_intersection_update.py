@@ -22,7 +22,9 @@
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'eliot', 'fox'}
 x.intersection_update(y)
-print(x)    # {'eliot'}
+print(x)
+# Output:
+# {'eliot'}
 
 # menghapus item yang tidak ada di ketiganya x, y dan z
 x = {'alice', 'bert', 'carl'}
