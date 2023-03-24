@@ -31,7 +31,9 @@ x = {'alice', 'bert', 'carl'}
 y = {'carl', 'daily', 'eliot'}
 z = {'fox', 'geral', 'carl'}
 x.intersection_update(y, z)
-print(x)    # {'carl'}
+print(x)    
+# Output:
+# {'carl'}
 
 # menghapus item yang tidak ada di keempatnya a, b, c dan d
 a = {1, 2, 3, 4}
@@ -39,28 +41,36 @@ b = {2, 3, 4, 5}
 c = {3, 4, 5, 6}
 d = {4, 5, 6, 7}
 a.intersection_update(b, c, d)
-print(a)    # {4}
+print(a)    
+# Output:
+# {4}
 
 # jika tidak ada item di set z maka akan menampilkan set kosong set()
 x = {'alice', 'bert', 'carl'}
 y = {'carl', 'daily', 'eliot'}
 z = {'fox', 'geral', 'hello'}
 x.intersection_update(y, z)
-print(x)    # set()
+print(x)    
+# Output:
+# set()
 
 # menggunakan operator assigment/penugasan &=
 # kode ini setara dengan yang diatas
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'eliot', 'fox'}
 x &= y
-print(x)    # {'eliot'}
+print(x)    
+# Output:
+# {'eliot'}
 
 x = {'alice', 'bert', 'carl'}
 y = {'carl', 'daily', 'eliot'}
 z = {'fox', 'geral', 'carl'}
 x &= y
 x &= z
-print(x)    # {'carl'}
+print(x)    
+# Output:
+# {'carl'}
 
 a = {1, 2, 3, 4}
 b = {2, 3, 4, 5}
@@ -69,6 +79,8 @@ d = {4, 5, 6, 7}
 a &= b
 a &= c
 a &= d
-print(a)    # {4}
+print(a)    
+# Output:
+# {4}
 
 # jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
