@@ -16,14 +16,20 @@
 x = {'alice', 'carl', 'eliot'}
 y = {'a', 'b', 'c'}
 hasil = x.isdisjoint(y)
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'carl'}
 hasil = x.isdisjoint(y)
-print(hasil)    # False
+print(hasil)    
+# Output:
+# False
 
 x = {1, 2, 3, 4}
 y = {5, 6, 7, 8}
 hasil = x.isdisjoint(y)
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
