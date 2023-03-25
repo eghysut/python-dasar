@@ -55,7 +55,9 @@ print(hasil)    # True
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'alice', 'carl'}
 hasil = x <= y
-print(hasil)    # False
+print(hasil)    
+# Output:
+# False
 
 x = {1, 2, 3}
 y = {6, 5, 4, 3, 2}
@@ -73,11 +75,15 @@ print(hasil)    # True
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'alice', 'carl', 'eliot'}
 hasil = x < y
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 # suatu set bukanlah sebagai set bagian dari dirinya sendiri.
 x = {'alice', 'carl', 'eliot'}
 hasil = x < x
-print(hasil)    # False
+print(hasil)   
+# Output:
+# False
 
 # jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
