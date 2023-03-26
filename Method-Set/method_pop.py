@@ -13,7 +13,9 @@
 
 x = {'alice', 'carl', 'eliot'}
 x.pop()
-print(x)    # {'eliot', 'alice'}
+print(x)    
+# Output:
+# {'eliot', 'alice'}
 
 # Catatan: fungsi pop() mengembalikan nilai yang dihapus.
 x = {'alice', 'carl', 'eliot'}
