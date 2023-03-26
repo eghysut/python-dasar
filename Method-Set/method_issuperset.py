@@ -20,35 +20,47 @@
 x = {'alice', 'carl', 'eliot', 'geral', 'hello'}
 y = {'alice', 'carl', 'eliot'}
 hasil = x.issuperset(y)
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 # mengembalikan False jika semua set item y tidak ada di set x. 
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'hello', 'alice', 'carl', 'eliot'}
 hasil = x.issuperset(y)
-print(hasil)    # False
+print(hasil)    
+# Output:
+# False
 
 # sebuah set juga dianggap sebagai superset dari dirinya sendiri
 x = {'alice', 'carl', 'eliot'}
 hasil = x.issuperset(x)
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 # menggunakan operator comparison/perbandingan >=
 # kode ini setara dengan yang diatas
 x = {'alice', 'carl', 'eliot', 'geral', 'hello'}
 y = {'alice', 'carl', 'eliot'}
 hasil = x >= y
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'hello', 'alice', 'carl', 'eliot'}
 hasil = x >= y
-print(hasil)    # False
+print(hasil)    
+# Output:
+# False
 
 # sebuah set juga dianggap sebagai superset dari dirinya sendiri
 x = {'alice', 'carl', 'eliot'}
 hasil = x >= x
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 # menggunakan operator comparison/perbandingan >
 # Catatan: operator > adalah satu-satunya cara untuk menguji
@@ -56,16 +68,22 @@ print(hasil)    # True
 x = {'alice', 'carl', 'eliot', 'geral', 'hello'}
 y = {'alice', 'carl', 'eliot'}
 hasil = x > y
-print(hasil)    # True
+print(hasil)    
+# Output:
+# True
 
 x = {'alice', 'carl', 'eliot'}
 y = {'geral', 'hello', 'alice', 'carl', 'eliot'}
 hasil = x > y
-print(hasil)    # False
+print(hasil)    
+# Output:
+# False
 
 # Suatu set bukanlah superset yang tepat dari dirinya sendiri
 x = {'alice', 'carl', 'eliot'}
 hasil = x > x
-print(hasil)    # False
+print(hasil)    
+# Output:
+# False
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
