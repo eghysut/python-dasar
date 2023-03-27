@@ -13,6 +13,8 @@
 # Parameter                     Deskripsi
 # item                          Dibutuhkan. Item yang akan dicari, dan dihapus
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut 
+
 x = {'alice', 'carl', 'eliot'}
 x.remove('carl')
 print(x)    
@@ -21,6 +23,8 @@ print(x)
 
 y = {10, 20, 30}
 print(y.remove(30))
+# Output:
+# None
 
 # memunculkan error KeyError
 x = {'alice', 'carl', 'eliot'}
