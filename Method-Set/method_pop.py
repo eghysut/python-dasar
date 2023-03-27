@@ -11,6 +11,8 @@
 # Nilai Parameter
 # tidak ada nilai parameter
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut 
+
 x = {'alice', 'carl', 'eliot'}
 x.pop()
 print(x)    
@@ -22,5 +24,3 @@ x = {'alice', 'carl', 'eliot'}
 hasil = x.pop()
 print(hasil)    # carl 
 print(x.pop())  # eliot
-
-# karna menghapus secara acak mungkin anda hasilnya berbeda dengan output contoh yang diatas.
