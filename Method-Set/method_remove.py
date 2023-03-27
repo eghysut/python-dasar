@@ -15,7 +15,9 @@
 
 x = {'alice', 'carl', 'eliot'}
 x.remove('carl')
-print(x)    # {'alice', 'eliot'}
+print(x)    
+# Output:
+# {'alice', 'eliot'}
 
 y = {10, 20, 30}
 print(y.remove(30))
@@ -24,6 +26,7 @@ print(y.remove(30))
 x = {'alice', 'carl', 'eliot'}
 x.remove('hello')
 print(x)
+# Output:
 # Traceback (most recent call last):
 #   File "method_remove.py", line 25, in <module>
 #     x.remove('hello')
