@@ -13,6 +13,8 @@
 # Parameter                 Deskripsi
 # set                       Dibutuhkan. Set untuk memeriksa kecocokan
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut 
+
 # mengembalikan set yang berisi semua item dari kedua set x dan set y.
 # kecuali item yang ada atau sama di kedua set x dan set y
 x = {'alice', 'carl', 'eliot'}
