@@ -18,25 +18,33 @@
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'alice'}
 hasil = x.symmetric_difference(y)
-print(hasil)    # {'world', 'carl', 'eliot', 'hello'}
+print(hasil)    
+# Output:
+# {'world', 'carl', 'eliot', 'hello'}
 
 x = {10, 20, 'hello'}
 y = {10, 20, 'world'}
 hasil = x.symmetric_difference(y)
-print(hasil)    # {'hello', 'world'}
+print(hasil)    
+# Output:
+# {'hello', 'world'}
 
 # menggunakan operator ^
 # kode ini setara dengan yang diatas
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'alice'}
 hasil = x ^ y
-print(hasil)    # {'hello', 'carl', 'eliot', 'world'}
+print(hasil)    
+# Output:
+# {'hello', 'carl', 'eliot', 'world'}
 
 # jika menggunakan operator ^ bisa membandingkan lebih dari 2 set
 x = {10, 20, 'hello'}
 y = {10, 20, 'world'}
 z = {30, 40, 'abcde'}
 hasil = x ^ y ^ z
-print(hasil)    # {40, 'world', 'abcde', 'hello', 30}
+print(hasil)    
+# Output:
+# {40, 'world', 'abcde', 'hello', 30}
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
