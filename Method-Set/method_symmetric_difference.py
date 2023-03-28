@@ -47,4 +47,4 @@ print(hasil)
 # Output:
 # {40, 'world', 'abcde', 'hello', 30}
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
