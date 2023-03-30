@@ -46,4 +46,4 @@ print(x)
 # Output:
 # {'hello', 'world'}
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
