@@ -12,6 +12,8 @@
 # Parameter                     Deskripsi
 # set                           Dibutuhkan. Set untuk memeriksa kecocokan
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut 
+
 # menghapus item yang ada atau sama di kedua set,
 # dan masukkan item yang tidak ada dikedua set x dan set y.
 x = {'alice', 'carl', 'eliot'}
@@ -44,4 +46,4 @@ print(x)
 # Output:
 # {'hello', 'world'}
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
