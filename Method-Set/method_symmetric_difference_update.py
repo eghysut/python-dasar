@@ -17,23 +17,31 @@
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'carl'}
 x.symmetric_difference_update(y)
-print(x)    # {'alice', 'eliot', 'hello', 'world'}
+print(x)    
+# Output:
+# {'alice', 'eliot', 'hello', 'world'}
 
 x = {10, 20, 'hello'}
 y = {10, 20, 'world'}
 x.symmetric_difference_update(y)
-print(x)    # {'hello', 'world'}
+print(x)    
+# Output:
+# {'hello', 'world'}
 
 # menggunakan operator ^=
 # kode ini setara dengan yang diatas
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'world', 'carl'}
 x ^= y
-print(x)    # {'world', 'alice', 'hello', 'eliot'}
+print(x)    
+# Output:
+# {'world', 'alice', 'hello', 'eliot'}
 
 x = {10, 20, 'hello'}
 y = {10, 20, 'world'}
 x ^= y
-print(x)    # {'hello', 'world'}
+print(x)    
+# Output:
+# {'hello', 'world'}
 
 # jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
