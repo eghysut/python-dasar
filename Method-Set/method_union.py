@@ -23,29 +23,37 @@
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'carl', 'eliot'}
 hasil = x.union(y)
-print(hasil)    # {'hello', 'eliot', 'carl', 'alice'}
+print(hasil)    
+# Output:
+# {'hello', 'eliot', 'carl', 'alice'}
 
 # menggabungkan lebih dari dua set item
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'carl', 'eliot'}
 z = {'world', 'carl', 20}
 hasil = x.union(y, z)
-print(hasil)    # {'hello', 'eliot', 'alice', 20, 'carl', 'world'}
+print(hasil)    
+# Output:
+# {'hello', 'eliot', 'alice', 20, 'carl', 'world'}
 
 # menggunakan operator |
 # kode ini setara dengan yang diatas
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'carl', 'eliot'}
 hasil = x | y
-print(hasil)    # {'carl', 'eliot', 'alice', 'hello'}
+print(hasil)    
+# Output:
+# {'carl', 'eliot', 'alice', 'hello'}
 
 x = {'alice', 'carl', 'eliot'}
 y = {'hello', 'carl', 'eliot'}
 z = {'world', 'carl', 20}
 hasil = x | y | z
-print(hasil)    # {'carl', 'eliot', 20, 'world', 'alice', 'hello'}
+print(hasil)    
+# Output:
+# {'carl', 'eliot', 20, 'world', 'alice', 'hello'}
 
 # Ingat: kemungkinan hasil keluaran itemnya berbeda dengan anda, 
 # karena tipe data set nilainya yang berubah-ubah
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
