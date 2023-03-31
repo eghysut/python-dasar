@@ -18,6 +18,8 @@
 #                           Anda dapat membandingkan iterables sebanyak yang Anda suka.
 #                           Pisahkan setiap iterable dengan koma
 
+# Catatan: contoh di Output ini dengan Output Anda akan berbeda, karena data set tidak terurut 
+
 # menggabungkan set yang berisi semua item set x dan set y, 
 # item yang sama dari set x dan y hanya menampilkan satu item
 x = {'alice', 'carl', 'eliot'}
@@ -56,4 +58,4 @@ print(hasil)
 # Ingat: kemungkinan hasil keluaran itemnya berbeda dengan anda, 
 # karena tipe data set nilainya yang berubah-ubah
 
-# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator
+# jika anda ingin mengetahui tentang operator python kunjungi folder_name: "python-operator"
