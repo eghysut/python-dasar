@@ -11,7 +11,7 @@ def fungsiku():
 
 if __name__=='__main__':
     fungsiku()
-    # output:
+    # Output:
     # ini adalah fungsi utama
     # nilai __name__ pada file app.py -> __main__
 
@@ -33,7 +33,7 @@ def fungsiku():
 
 if __name__=="__main__":
     fungsiku()
-    # output:
+    # Output:
     # ini adalah fungsi tambah dari modul penjumlahan
     # nilai __name__ pada modul penjumlahan.py -> matematika.penjumlahan
     # 30
@@ -46,7 +46,7 @@ def fungsiku2():
     print(hasil)
 if __name__=="__main__":
     fungsiku2()
-    # output:
+    # Output:
     # ini adalah fungsi kurang dari modul pengurangan
     # nilai __name__ pada modul pengurangan.py -> matematika.pengurangan
     # 5
