@@ -1,4 +1,4 @@
-# memodifikasi tuple python
+# memodifikasi sets python
 # Ingat: Set  tidak dapat mengubah itemnya, tetapi Anda dapat menambahkan item baru.
 
 # menambahkan item set menggunakan "Method-Set" fungsi add().
