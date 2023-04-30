@@ -67,4 +67,4 @@ with open('file_demo_readlines.csv') as fileku: # bebas anda ingin menggunakan f
     # ['Carl,25,Perempuan\n']
 
 # Catatan: Perlu diingat bahwa method readlines() akan membaca seluruh isi file ke dalam memory sekaligus, 
-# sehingga tidak disarankan untuk digunakan pada file yang sangat besar karena dapat menyebabkan masalah pada kinerja sistem. 
+# sehingga tidak disarankan untuk digunakan pada file yang sangat besar karena dapat menyebabkan masalah pada kinerja sistem.
