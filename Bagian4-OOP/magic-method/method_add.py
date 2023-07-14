@@ -123,4 +123,3 @@ print(hasil.x)
 
 print(hasil.y)
 # Output:
-# 62
