@@ -21,20 +21,27 @@
 # method ini harus mengembalikan hasil pembagian bulat objek tersebut.
 
 # Contoh penggunaan magic method __floordiv__():
-class Floordiv:
+class FloorDiv:
     def __init__(self, nilai):
         self.nilai = nilai
-
+    
     def __floordiv__(self, other):
-        return Floordiv(self.nilai // other.nilai)
+        # Jika objek other juga merupakan objek dari kelas Mahasiswa 
+        if isinstance(other, FloorDiv):
+            return self.nilai // other.nilai
+        
+        # Jika objek other bukan merupakan objek Mahasiswa,
+        # kita asumsikan bahwa other adalah objek lain (tipe data apapun).
+        else:
+            return self.nilai // other
 
-# membuat objek Floordiv
-obj1 = Floordiv(10)
-obj2 = Floordiv(2)
+# membuat objek FloorDiv
+obj1 = FloorDiv(10)
+obj2 = FloorDiv(2)
 
-# pembagian bulat antara dua objek obj1 dengan obj2
+# pembagian antara dua objek obj1 dengan obj2 dari kelas FloorDiv
 hasil = obj1 // obj2
-print(hasil.nilai)
+print(hasil)
 # Output:
 # 5
 
