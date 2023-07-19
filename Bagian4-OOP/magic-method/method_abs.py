@@ -1,33 +1,22 @@
-# Dalam Python, Magic method __abs__() adalah metode khusus dalam Python
-# yang digunakan untuk mengimplementasikan operasi nilai mutlak (abs) pada suatu objek.
-# Metode ini memungkinkan Anda untuk menentukan perilaku nilai mutlak kustom pada objek Anda.
+# Magic method __abs__ adalah method khusus dalam Python 
+# yang digunakan untuk mengimplementasikan fungsi bawaan abs() untuk sebuah objek dari sebuah kelas. 
+# method ini memungkinkan Anda mendefinisikan perilaku dari fungsi abs() 
+# ketika diterapkan pada instance kelas yang Anda buat.
 
-# Definisi:
-# Metode __abs__() digunakan untuk mengimplementasikan operasi nilai mutlak pada objek. 
-# Metode ini mengembalikan nilai mutlak dari objek saat ini
+# method __abs__ harus mengembalikan nilai absolut dari objek. 
+# method ini dipanggil ketika Anda memanggil fungsi abs() pada sebuah instance dari kelas Anda 
+# atau ketika Anda menggunakan fungsi abs() bawaan secara langsung pada sebuah objek.
 
-# Syntax:
-# def __abs__(self):
-#   Implementasi logika nilai mutlak
-#   Mengembalikan nilai mutlak dari self
-
-# Parameter:
-# self: Merujuk pada objek saat ini.
-
-# Contoh penggunaan magic method __abs__():
-class NilaiAbsolut:
-    def __init__(self, nilai):
-        self.nilai = nilai
+# Berikut adalah contoh penggunaan method __abs__ dalam sebuah kelas:
+class Nilai:
+    def __init__(self, angka):
+        self.angka = angka
 
     def __abs__(self):
-        return abs(self.nilai)
+        return abs(self.angka)
 
-# membuat objek NilaiAbsolut
-x = NilaiAbsolut(-10)
-
-# nilai Absolut(mutlak) dari objek x
-hasil = x.__abs__()
-print(hasil)
+x = Nilai(-10)
+print(x.__abs__())
 # Output:
 # 10
 
@@ -36,12 +25,8 @@ print(abs(x))
 # Output:
 # 10
 
-# membuat objek NilaiAbsolut
-y = NilaiAbsolut(1+2j)
-
-# nilai Absolut(mutlak) dari objek y
-hasil = y.__abs__()
-print(hasil)
+y = Nilai(1+2j)
+print(y.__abs__())
 # Output:
 # 2.23606797749979
 
