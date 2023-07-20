@@ -1,4 +1,4 @@
-# Magic method __hex__ adalah method khusus dalam Python 
+# Dalam Python, Magic method __hex__ adalah method khusus dalam Python 
 # yang digunakan untuk mengimplementasikan representasi heksadesimal dari sebuah objek.
 # method ini memungkinkan Anda untuk mendefinisikan perilaku objek ketika 
 # diubah menjadi representasi heksadesimal menggunakan fungsi bawaan hex().
