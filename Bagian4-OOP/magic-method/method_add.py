@@ -1,9 +1,9 @@
-# Dalam Python, magic method __add__() adalah method khusus yang digunakan 
+# Dalam Python, magic method __add__() adalah Method khusus yang digunakan 
 # untuk mengimplementasikan operator penjumlahan + pada suatu objek. 
 # Method ini memungkinkan Anda untuk menentukan perilaku penjumlahan antara dua objek.
 
 # Ketika operator + digunakan untuk menjumlahkan dua objek, 
-# Python secara otomatis memanggil method __add__() pada objek yang pertama, 
+# Python secara otomatis memanggil Method __add__() pada objek yang pertama, 
 # dan mengirimkan objek kedua sebagai argumen. 
 # Method ini harus mengembalikan hasil penjumlahan objek tersebut.
 
@@ -13,14 +13,14 @@
 
 # Syntax:
 # def __add__(self, other):
-#     Implementasi logika penjumlahan
+    # Implementasi logika penjumlahan
 
 # Parameter:
 # self: Merujuk pada objek saat ini.
 # other: Merupakan objek kedua yang akan dijumlahkan dengan objek saat ini.
 # nama parameter "other" bisa diganti dengan nama apapun 
 
-# Contoh penggunaan magic method __add__():
+# Berikut adalah contoh penggunaan magic method __add__ dalam sebuah kelas:
 class Tambah:
     def __init__(self, nilai):
         self.nilai = nilai
