@@ -1,4 +1,4 @@
-# Magic method __abs__ adalah method khusus dalam Python 
+# Dalam Python, magic method __abs__ adalah method khusus dalam Python 
 # yang digunakan untuk mengimplementasikan fungsi bawaan abs() untuk sebuah objek dari sebuah kelas. 
 # method ini memungkinkan Anda mendefinisikan perilaku dari fungsi abs() 
 # ketika diterapkan pada instance kelas yang Anda buat.
@@ -7,7 +7,7 @@
 # method ini dipanggil ketika Anda memanggil fungsi abs() pada sebuah instance dari kelas Anda 
 # atau ketika Anda menggunakan fungsi abs() bawaan secara langsung pada sebuah objek.
 
-# Berikut adalah contoh penggunaan method __abs__ dalam sebuah kelas:
+# Berikut adalah contoh penggunaan magic method __abs__ dalam sebuah kelas:
 class Nilai:
     def __init__(self, angka):
         self.angka = angka
@@ -15,6 +15,7 @@ class Nilai:
     def __abs__(self):
         return abs(self.angka)
 
+# membuat objek Nilai
 x = Nilai(-10)
 print(x.__abs__())
 # Output:
